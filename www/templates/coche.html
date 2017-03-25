@@ -1,0 +1,41 @@
+<ion-view view-title="Informacion técnica">
+
+    <!-- sustituye al que estaba por herencia  -->
+    <ion-nav-buttons side="secondary">
+      <button class="button button-icon ion-navicon"
+      ng-click="data.showReorder = !data.showReorder">
+      </button>
+    </ion-nav-buttons>
+
+    <ion-content class="padding">
+
+      <ion-list class="list" show-reorder="data.showReorder" >
+
+          <!-- ordenar listas QUITAMOS  item item-icon-left -->
+          <ion-item class="
+            item-thumbnail-left
+            item-text-wrap "
+
+            ng-repeat="itemDetalle in detalles"
+            ng-click="toggleDescripcion(itemDetalle)"
+            ng-class="{'noresumido':itemDetalle.activaResumido}">
+            <!-- for de angular "detalles" de controller  $scope.detalles 
+              (CLASE DINAMICA ESTILO ) ng-class   -->
+
+            <img src="img/{{itemDetalle.foto}}">
+            <h2> {{itemDetalle.titulo}} </h2>
+
+            <!-- plantilla  | limitTo:20   -->
+            <p ng-show=" !itemDetalle.activaResumido "> {{ itemDetalle.descripcion | limitTo:60 }}
+              {{itemDetalle.descripcion.length > 60 ? '&hellip;' : ''}} </p>
+            <p ng-show=" itemDetalle.activaResumido "> {{ itemDetalle.descripcion }} </p>
+
+            <ion-reorder-button class="ion-navicon"
+              on-reorder="moveItem(itemDetalle, $fromIndex, $toIndex)">
+            </ion-reorder-button>
+          </ion-item>
+      </ion-list >      
+    </ion-content>  
+
+
+</ion-view>

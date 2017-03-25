@@ -1,0 +1,68 @@
+{
+	"detalles":[
+		{
+			"foto": "Lamborghini.png",
+			"titulo": "carro primero",
+			"descripcion":"Calefacción,Desempañador trasero,Faros halógenos, Volante de posiciones,Computadora de viaje,Radio AM/FM, CD player,Sonido profesional MP3,Entrada Ipod/Aux "
+		},{
+			"foto": "auto2.jpg",
+			"titulo": "inteior segundo",
+			"descripcion":"Un carro es un primitivo vehículo de transporte que se desplaza sobre dos o más ruedas, movido por tracción animal.1 Tirados por caballos, mulas, burros, bueyes, y otros animales, en función de la fauna del lugar."
+		},{
+			"foto": "auto3.jpg",
+			"titulo": "inteior 3",
+			"descripcion":"El carro llegó a Europa y Asia occidental en el cuarto milenio antes de Cristo, y al Valle del Indo hacia el tercer milenio antes de Cristo.4 A América, el carro llegó en el siglo XV, directamente de la mano de los conquistadores españoles."
+		},{
+			"foto": "Lamborghini.png",
+			"titulo": "inteior 4",
+			"descripcion":"Calefacción,Desempañador trasero,Faros halógenos, Volante de posiciones,Computadora de viaje,Radio AM/FM, CD player,Sonido profesional MP3,Entrada Ipod/Aux "
+		},{
+			"foto": "auto2.jpg",
+			"titulo": "inteior 5",
+			"descripcion":"Un carro es un primitivo vehículo de transporte que se desplaza sobre dos o más ruedas, movido por tracción animal.1 Tirados por caballos, mulas, burros, bueyes, y otros animales, en función de la fauna del lugar."
+		},{
+			"foto": "auto3.jpg",
+			"titulo": "Carrito ultimo",
+			"descripcion":"El carro llegó a Europa y Asia occidental en el cuarto milenio antes de Cristo, y al Valle del Indo hacia el tercer milenio antes de Cristo.4 A América, el carro llegó en el siglo XV, directamente de la mano de los conquistadores españoles."
+		}
+	],
+	"usuarios":[
+		{
+			"nombre":"Ricardo",
+			"apellidos":"lopez Rocha",
+			"edad":22,
+			"telefono":"5454354252",
+			"en_activo":true,
+			"foto":"ben.png",
+			"uso":3,
+			"id":0
+		},{
+			"nombre":"Carlos",
+			"apellidos":"Garcia Rocha",
+			"edad":65,
+			"telefono":"5454354252",
+			"en_activo":false,
+			"foto":"adam.jpg",
+			"uso":3,
+			"id":1
+		},{
+			"nombre":"Luis",
+			"apellidos":"lopez Polo",
+			"edad":22,
+			"telefono":"5454354252",
+			"en_activo":true,
+			"foto":"ben.png",
+			"uso":3,
+			"id":2
+		},{
+			"nombre":"Pepe",
+			"apellidos":"Ruiz Radio",
+			"edad":22,
+			"telefono":"5454354252",
+			"en_activo":true,
+			"foto":"max.png",
+			"uso":4,
+			"id":3
+		}
+	]
+}

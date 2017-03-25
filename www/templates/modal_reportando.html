@@ -1,0 +1,151 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class = "title">Reportando</h1>
+  </ion-header-bar>
+
+  <ion-content>    
+
+    <div class="item item-divider"> Nombre del tianguis </div>
+
+    <label class="item item-input item-floating-label"> 
+      <span class="input-label">  opcional </span>
+      <input type="text" placeholder="Nombre opcional" ng-model="nombre_tianguis" >
+    </label>
+
+    <div class="item item-divider"> Delegación y Calle principal </div>
+
+    <label class="item item-input item-stacked-label"> 
+      <span class="input-label"> Delegacion</span>
+      <input type="text" class="form-control" placeholder="Delegacion" 
+        id="delegacionModel" ng-model="delegacion_model" >
+    </label>
+    <br>
+
+    <label class="item item-input item-stacked-label"> 
+      <span class="input-label"> Calle</span>
+      <input type="text" class="form-control" placeholder="Calle" 
+        id="callesModel" ng-model="calles_model">
+    </label>
+    <br>
+
+    <div class="item item-divider" ng-click="showTipoVenta=!showTipoVenta"> 
+      Tipo de venta 
+      <i class="icon ion-chevron-down" ng-show="showTipoVenta"></i> 
+      <i class="icon ion-chevron-up" ng-hide="showTipoVenta"></i> 
+    </div>
+    
+    <div ng-hide="showTipoVenta"> 
+      <div class="row">
+        <input type="text" class="form-control" placeholder="Buscar por..." ng-model="filterObjModel.tipo_venta" >
+        <br>
+      </div>
+
+      <ion-list ng-click="showTipoVenta=!showTipoVenta">
+        <div id="banderaHora" style='display:none; color:red;'>Seleccionar </div>
+        <ion-radio ng-repeat="item in tipo_venta | filter:filterObjModel.tipo_venta"
+          ng-value="item.value"
+          ng-model="dataTipo_venta.elegidoTipo_venta"
+          ng-change="cambioRadioTipo_ventaEscucha(item)"
+          name="server-side"
+          >
+          {{item.text}}
+        </ion-radio>
+      </ion-list>
+    </div>
+    <label class="item-input"> 
+      <input type="text" style="text-align: center" 
+        ng-model="tipo_venta_view" 
+        readonly>
+    </label>
+       
+    <div class="item item-divider" ng-click="showTemporada = !showTemporada"> 
+      Temporada (General) 
+      <i class="icon ion-chevron-down" ng-show="showTemporada"></i>
+      <i class="icon ion-chevron-up" ng-hide="showTemporada"></i> 
+    </div>
+    <ion-list ng-hide="showTemporada" ng-click="showTemporada = !showTemporada">
+      <div id="banderaHora" style='display:none; color:red;'>Seleccionar temporada</div>
+      <ion-radio ng-repeat="item in temporada"
+        ng-value="item.value"
+        ng-model="dataTemporada.elegidoTemporada"
+        ng-change="cambioRadioTemporadaEscucha(item)"
+        name="server-side"
+        >
+        {{item.text}}
+      </ion-radio>
+    </ion-list>
+    <label class="item-input"> 
+      <input type="text" style="text-align:center;" 
+        ng-model="temporada_view" 
+        readonly>
+    </label>
+
+    <div ng-hide="hideTemporada" style='color:red;'>Seleccionar Temporada</div>
+
+    <div class="item item-divider"> Temporada (Especifico)</div>
+    <div class="card">
+      <label class="item item-input"> 
+        Fecha Inicial: 
+        <input type="text" style="text-align: center" 
+          placeholder="Elegir fecha" 
+          ng-model="temp_inicial" 
+          name="temp_inicial" 
+          ng-click="opendateModal()" 
+          readonly>
+        <div id="bandera_temp_inicial" style='display:none; color:red;'>Click Fecha</div>
+      </label>
+    </div>
+    <div class="card">
+      <label class="item item-input"> 
+        Fecha Final: 
+        <input type="text" style="text-align: center" 
+          placeholder="Elegir fecha" 
+          ng-model="temp_final" 
+          name="temp_final" 
+          ng-click="opendateModalFinal()" 
+          readonly>
+        <div id="bandera_temp_final" style='display:none; color:red;'>Click Fecha</div>
+      </label>
+    </div>
+
+    <div class="item item-divider"> Dias </div>
+    <ion-list>
+      <div id="banderaDias" style='display:none; color:red;'>Seleccionar Dias que se establecen </div>
+      <ion-checkbox ng-repeat="item in dias"
+        ng-model="item.checked" 
+        ng-checked="item.checked">
+        {{ item.text }}
+      </ion-checkbox>
+    </ion-list>
+    <div ng-hide="hideDias" style='color:red;'>Seleccionar dias</div>
+
+
+  <div class="item item-divider"> ¿Carriles afectados? </div>
+  <label class="item item-input">
+    <span class="input-label">Ingresar:</span>
+    <input type="number" placeholder="Seleccione de 0 a 6 posibles"
+      id="reduccion_carriles" value="0" ng-model="redCarrilesModel" min="0"  max="6">
+  </label>
+
+  <div class="item item-divider"> Horarios </div>
+
+  <div class="item item-icon-left" ion-datetime-picker time ng-model="hora_inicial">
+    <i class="icon ion-ios-clock positive"></i>
+    <div ng-if="!hora_inicial">Hora inicial (Click)</div>
+    <div ng-hide="hideHoraInicio" style='color:red;'>Seleccionar Hora</div>
+    <strong>{{hora_inicial| date: "H:mm"}}</strong>
+  </div>
+  
+  <div class="item item-icon-left" ion-datetime-picker time ng-model="hora_final">
+    <i class="icon ion-ios-clock positive"></i>
+    <div ng-if="!hora_final">Hora Final (Click)</div>
+    <div ng-hide="hideHoraFin" style='color:red;'>Seleccionar Hora</div>
+    <strong>{{hora_final| date: "H:mm"}}</strong>
+  </div>
+
+  <button class="button button-block button-calm" ng-click="enviarDatos()">
+    Guardar
+  </button>
+
+  </ion-content>
+</ion-modal-view>

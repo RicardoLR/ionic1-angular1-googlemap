@@ -1,0 +1,29 @@
+
+<ion-view view-title="Datos de usuario">
+
+  <ion-content class="padding"
+  ng-class="{'inactivo':!dataUser.en_activo}">
+  <div class="miContenedorUSer">
+  	
+  	<!-- podemos agregar estilos propios  CSS   -->
+  	<div class="img_rounded">
+  		<img src="img/{{dataUser.foto}}" class="full-image">
+  	</div>
+  	<h2> {{dataUser.nombre}} {{ dataUser.apellidos }}</h2>
+  	<p> Edad: {{ dataUser.edad }}</p>
+  	<p> Telefono: {{dataUser.telefono}}</p>
+  	<p> Años con el coche: {{dataUser.uso}}</p>
+
+<div class="item item-divider">
+          Serverside, Selected Value: {{ data.serverSide }}
+        </div>
+        
+        <ion-radio ng-repeat="item in serverSideList"
+                   ng-value="item.value"
+                   ng-model="data.serverSide"
+                   ng-change="serverSideChange(item)"
+                   name="server-side">
+          {{ item.text }}
+        </ion-radio>
+        
+      </div>

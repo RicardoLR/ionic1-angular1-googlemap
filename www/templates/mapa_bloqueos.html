@@ -1,0 +1,59 @@
+
+
+<ion-view hide-nav-bar="true">
+
+    <ion-header-bar class="bar bar-assertive">
+      <h1 class="title"> Bloqueos en la CDMX. </h1>
+      <button class="button button-clear ion-android-download"
+        ng-click="actualizarMapa()">
+        Actualizar
+      </button>
+
+    </ion-header-bar>
+
+    <ion-content scroll="false">
+
+      <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+          <input type="text" placeholder="Direcciòn" id="address" ng-model="address"/>
+        </label>
+        <button class="button button-small button-dark" ng-click="addAddress()">
+          Buscar
+        </button>
+      </div>
+
+    <div id="mapaDelic" class="map" control="map.control" data-tap-disabled="true"> </div>
+
+    <div class="etiqueta_ir">
+      <ul>
+        <li class="texto_diseñado_2">Mi Ubicación</li>
+        <li>
+          <a id="mostrar" 
+            class="icon ion-ios-navigate custom_icon"
+            ng-click="irPosActual()">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="etiqueta_flotante">
+      <ul>
+        <li>
+          <div class="texto_diseñado_2"> Ver por... </div>
+          <a 
+            ng-click="openModal()"
+            id="mostrar" 
+            class="icon ion-ios-search-strong custom_icon">
+          </a>
+
+        </li>
+      </ul>
+    </div>
+
+    <div class="info_marker" id='divMarker'> 
+    </div>
+
+    
+
+    </ion-content>  
+</ion-view>

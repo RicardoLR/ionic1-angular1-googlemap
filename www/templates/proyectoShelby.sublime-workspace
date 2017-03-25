@@ -1,0 +1,772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"fromIndex"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"Ro",
+				"Radio"
+			],
+			[
+				"s",
+				"src	Attr"
+			],
+			[
+				"io",
+				"ion-tabs	ion-tabs"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"se",
+				"server_socket"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"slug",
+				"slugs"
+			],
+			[
+				"get",
+				"getUser"
+			],
+			[
+				"log",
+				"logged"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"te",
+				"twitter"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"us",
+				"User"
+			],
+			[
+				"m",
+				"mongoose"
+			],
+			[
+				"au",
+				"authenticate"
+			],
+			[
+				"fa",
+				"facebook"
+			],
+			[
+				"fac",
+				"FacebookStrategy"
+			],
+			[
+				"pas",
+				"passport"
+			],
+			[
+				"coo",
+				"cookie-parser"
+			],
+			[
+				"a",
+				"arreglo1"
+			],
+			[
+				"cre",
+				"createServer"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"tot",
+				"totalPages"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"cel",
+				"cellpadding	Attr"
+			],
+			[
+				"ar",
+				"articleArrayUpdate"
+			],
+			[
+				"id",
+				"id_EditPHP"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"arti",
+				"articleCollection"
+			],
+			[
+				"colle",
+				"articleCollection"
+			],
+			[
+				"val",
+				"valueCadaDoc"
+			],
+			[
+				"va",
+				"valueCadaDoc"
+			],
+			[
+				"miC",
+				"miCursorObjCadaDocumento"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mi",
+				"miCursor"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"show",
+				"show_form"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mo",
+				"miMongo"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"listDBs",
+				"fbsql_list_dbs"
+			],
+			[
+				"leve",
+				"level"
+			],
+			[
+				"pro",
+				"procesoAjax"
+			],
+			[
+				"ma",
+				"mataNodo"
+			],
+			[
+				"ge",
+				"getSaltos"
+			],
+			[
+				"eve",
+				"eventRobert"
+			],
+			[
+				"gets",
+				"getSource"
+			],
+			[
+				"cna",
+				"canalesCadaNodo"
+			],
+			[
+				"canales",
+				"canalesCadaNodo"
+			],
+			[
+				"cana",
+				"candadoCanales"
+			],
+			[
+				"ca",
+				"candadoCanales"
+			],
+			[
+				"ev",
+				"eventSnapshot"
+			],
+			[
+				"Eve",
+				"EventSnapshot"
+			],
+			[
+				"snap",
+				"snapshot"
+			],
+			[
+				"n",
+				"newevent"
+			],
+			[
+				"set",
+				"setRelojCopia"
+			],
+			[
+				"relo",
+				"relojPropio"
+			],
+			[
+				"rel",
+				"relojVectorial"
+			],
+			[
+				"pu",
+				"publicMethod"
+			],
+			[
+				"uni",
+				"unicaInstance"
+			],
+			[
+				"inta",
+				"unicaInstance"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"A",
+				"AbstractFactory"
+			],
+			[
+				"tipo",
+				"Tipo1MyFactory"
+			],
+			[
+				"Fa",
+				"FamilyCar"
+			],
+			[
+				"Spor",
+				"SportCar"
+			],
+			[
+				"car",
+				"carType"
+			],
+			[
+				"la",
+				"latitud"
+			],
+			[
+				"des",
+				"descripcion"
+			],
+			[
+				"r",
+				"ronda"
+			],
+			[
+				"el",
+				"electo"
+			],
+			[
+				"p",
+				"padre"
+			],
+			[
+				"g",
+				"getPropagacion"
+			],
+			[
+				"event",
+				"EventPropagada"
+			],
+			[
+				"ne",
+				"neighbors"
+			],
+			[
+				"rec",
+				"recibo"
+			],
+			[
+				"sin",
+				"sinVisitar"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"ve",
+				"misVecinos"
+			],
+			[
+				"Re",
+				"Rechazo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Ionic/proyectoShelby/www/js/data.json",
+		"/C/Ionic/proyectoShelby/www/js/controllers.js",
+		"/C/Ionic/miProyecto/www/js/app.js",
+		"/C/Ionic/miProyecto/www/js/controllers.js",
+		"/C/Ionic/proyectoShelby/www/js/app.js",
+		"/C/Users/Richi/Desktop/paginas, estudiar, etc.txt",
+		"/C/Users/Richi/Desktop/mongo java/mongo java.txt",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/mongoose.js",
+		"/C/Users/Richi/Desktop/L4nvidi4mat4/envy_info.txt",
+		"/C/Users/Richi/Desktop/myKeys/mongodb.txt",
+		"/C/xampp/htdocs/curso_nodejs/Aprendiendo node js.txt",
+		"/C/Users/Richi/Desktop/myKeys/bigdata.txt",
+		"/C/Users/Richi/Desktop/myKeys/como hacer llave por terminal.txt",
+		"/C/Users/Richi/Desktop/myKeys/Cosas de android studio.txt",
+		"/C/Ionic/Aprendiendo ionic.txt",
+		"/C/Users/Richi/Desktop/correos.txt",
+		"/C/Users/Richi/Desktop/frases ingles.txt",
+		"/C/Users/Richi/Desktop/myKeys/servidor online.txt",
+		"/C/Users/Richi/Desktop/myKeys/Servidor.txt",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/Alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/DatabaseConnection.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/mysql_login.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/GeoJSON.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/insertar_alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/GeoJSONBasico.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/obtener_altitud_alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/obtener_alertate.php",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/package.json",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/config.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/commands.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/commands/users.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/package.json",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/bin/jitsu",
+		"/C/Users/Richi/Desktop/Patrones de diseño/MVC.txt",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/home/index.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/base.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/user/chat.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/home.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/discuss.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/user.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/middlewares/getuser.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/server.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/middlewares/logged.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/facebook.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/user/extra_data.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/discuss/question_detail.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/models/question.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/answer.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/twitter.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/user.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/controllers/discuss.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/question.js",
+		"/C/xampp/htdocs/curso_nodejs/index.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/views/home/index.html",
+		"/C/Users/Richi/Desktop/Temario OFENSIVA 2.0 BLACKHAT.txt",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/models/user.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/mongoose.js.txt",
+		"/C/Users/Richi/Desktop/mongo java/pruebas/mongo java.txt",
+		"/C/Users/Richi/Desktop/mongo java/pruebas/MongoDBJDBC.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/hw1-1__m101j_m101p_5258458de2d4233537765336/dump/m101/hw1.metadata.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/intro_to_creating_and_reading_documents_568c454cd8ca390830d6eb56/intro_to_creating_and_reading_documents/movies_inserts.js",
+		"/C/Users/Richi/Desktop/mongo java/semana 2/week2_examples__m101j_52d6adffe2d423570a05bba9/examples/src/main/java/com/mongodb/m101j/crud/App.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 2/week2_examples__m101j_52d6adffe2d423570a05bba9/examples/src/main/java/com/mongodb/m101j/crud/FindTest.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/hw1-1__m101j_m101p_5258458de2d4233537765336/dump/m101/funnynumbers.metadata.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/JSON_568c43bed8ca390830d6eb31/JSON/apple_fourth_quarter_news.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/pom.xml",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/App.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldSparkStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/SparkFormHandling.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/SparkRoutes.java",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/public/css/main.css",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/controllers/home.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/views/base.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/public/css/main.css",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/connections/facebook.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/public/js/jquery.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/package.json",
+		"/C/xampp/htdocs/curso_nodejs/CursoFundamentosNodeJS-master/package.json",
+		"/C/xampp/htdocs/curso_nodejs/CursoFundamentosNodeJS-master/server.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/index.html",
+		"/C/xampp/htdocs/Curso HTML5 de pildorasinformativas/pagina Vídeo 7.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/node_modules/express/package.json",
+		"/C/xampp/htdocs/curso_nodejs/commons/script1.js",
+		"/C/xampp/htdocs/curso_nodejs/commons/script2.js",
+		"/C/xampp/htdocs/curso_nodejs/package.json",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/dashboard.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/edit.php",
+		"/C/Users/Richi/Desktop/MVC.txt",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/ejemplos totorialpoint/crearBD.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/blog_SeleccionPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/blogs.php",
+		"/C/xampp/htdocs/curso_nodejs/crear servidor/server.js",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/estilo_insercion.css",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/paginaPrincipal_mongophp.php",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/java/com/herprogramacion/googlemapsenandroid/EventsActivity.java",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/insercion.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/mostrarBasesMongo.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/insercion.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/paginaPrincipal_mongophp.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/estilo_insercion.css",
+		"/C/xampp/htdocs/phpinfo.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/mongo-php-library-master/src/Operation/Find.php",
+		"/C/Users/Richi/Downloads/informacion.txt",
+		"/C/xampp/htdocs/GeoJSON.php",
+		"/E/cursos de programacion UAM/programas y demas.txt",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/Devolver objetos en JSON desde PHP/respuestajson.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/Devolver objetos en JSON desde PHP/clientejson.html",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/java/mx/developcomputing/alertate/ui/InsertActivity.java",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/java/mx/developcomputing/alertate/ui/ControlsActivity.java",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_markers_fragment.xml",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/res/layout/activity_controls_fragment.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_marker_detail.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_first_map.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_events.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/AlertaTE/app/src/main/res/values/strings.xml",
+		"/C/Users/Richi/Desktop/JBME.C1V1LWNU3V0.1080.Lat/SUBIDO POR PeliculasHDMeGa.Net.txt",
+		"/C/Users/Richi/Downloads/MegaDownloader.v1.7.Incl.Portable.and.Source.Code-FREE/Instrucciones.txt",
+		"/C/Users/Richi/Downloads/programas/nod32 64 bits/Instrucciones.txt",
+		"/C/xampp/htdocs/MySocialMedia/app/src/main/java/com/herprogramacion/mysocialmedia/PostAdapter.java",
+		"/C/Users/Richi/Downloads/programas/nod32 64 bits/Server TNOD.txt",
+		"/C/Users/Richi/Downloads/Algoritmos Distribuidos/practica fallo nodo/fallaNodo.py",
+		"/C/Users/Richi/AppData/Local/Temp/Rar$DIa0.073/DEF_Mejorado_Snapshot.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mongoose",
+			"facebookConnection",
+			"id_EditPHP",
+			"articleArrayUpdate",
+			"connection",
+			"article",
+			"miCursor",
+			"bloginsercionphp",
+			"blog_mongophp",
+			"objPolygon",
+			"objPolygon1",
+			"\n	",
+			"0",
+			"NULL",
+			"Null",
+			"NULL",
+			"null",
+			"PRUEBA",
+			"ACEPTA",
+			"visitado",
+			"Lider",
+			"lider",
+			"paro",
+			"RECHAZO",
+			"SEMILLA",
+			"\"INICIO\"",
+			"INICIO",
+			"modoTimer",
+			"import",
+			"  ",
+			"inicia",
+			"DFS_mejorado",
+			"visitedD",
+			"unvisited",
+			"father",
+			"snapshot",
+			"cleancanales",
+			"appendcanales",
+			"visitedS",
+			"visitedD",
+			")\n",
+			"----------------------------------------------------------------------------------------\n",
+			", ",
+			")",
+			"event",
+			".\n",
+			"Rechazo",
+			"self"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"twitterConnection",
+			"id",
+			"article",
+			"miConnection",
+			"articleArrayInsertar",
+			"miCursorObjCadaDocumento",
+			"blog_mongophp",
+			"objPolygonAbierto",
+			"objPolygonCerrado",
+			"null",
+			"0",
+			"-1",
+			"Null",
+			"NULL",
+			"PROCESA",
+			"ACEPTADO",
+			"visited",
+			"miLider",
+			"entroEnParo",
+			"REGRESA",
+			"\"SEMILLA\"",
+			"SEMILLA",
+			"banderaTimer",
+			"DFSMejoradoSnapshot",
+			"visited",
+			"sinVisitar",
+			"padre",
+			"agregarSnapshot",
+			"limpiaCanales",
+			"anadirCanales",
+			"visited_snapshot",
+			"EventPropagada"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyectoShelby.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

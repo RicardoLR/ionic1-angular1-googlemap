@@ -1,0 +1,1254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"fromIndex"
+			],
+			[
+				"h",
+				"http"
+			],
+			[
+				"Ro",
+				"Radio"
+			],
+			[
+				"s",
+				"src	Attr"
+			],
+			[
+				"io",
+				"ion-tabs	ion-tabs"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"se",
+				"server_socket"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"slug",
+				"slugs"
+			],
+			[
+				"get",
+				"getUser"
+			],
+			[
+				"log",
+				"logged"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"te",
+				"twitter"
+			],
+			[
+				"er",
+				"err"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"us",
+				"User"
+			],
+			[
+				"m",
+				"mongoose"
+			],
+			[
+				"au",
+				"authenticate"
+			],
+			[
+				"fa",
+				"facebook"
+			],
+			[
+				"fac",
+				"FacebookStrategy"
+			],
+			[
+				"pas",
+				"passport"
+			],
+			[
+				"coo",
+				"cookie-parser"
+			],
+			[
+				"a",
+				"arreglo1"
+			],
+			[
+				"cre",
+				"createServer"
+			],
+			[
+				"e",
+				"echo	echo \"…\""
+			],
+			[
+				"art",
+				"article"
+			],
+			[
+				"tot",
+				"totalPages"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"en",
+				"end"
+			],
+			[
+				"cel",
+				"cellpadding	Attr"
+			],
+			[
+				"ar",
+				"articleArrayUpdate"
+			],
+			[
+				"id",
+				"id_EditPHP"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"arti",
+				"articleCollection"
+			],
+			[
+				"colle",
+				"articleCollection"
+			],
+			[
+				"val",
+				"valueCadaDoc"
+			],
+			[
+				"va",
+				"valueCadaDoc"
+			],
+			[
+				"miC",
+				"miCursorObjCadaDocumento"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"mi",
+				"miCursor"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"show",
+				"show_form"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"mo",
+				"miMongo"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"listDBs",
+				"fbsql_list_dbs"
+			],
+			[
+				"leve",
+				"level"
+			],
+			[
+				"pro",
+				"procesoAjax"
+			],
+			[
+				"ma",
+				"mataNodo"
+			],
+			[
+				"ge",
+				"getSaltos"
+			],
+			[
+				"eve",
+				"eventRobert"
+			],
+			[
+				"gets",
+				"getSource"
+			],
+			[
+				"cna",
+				"canalesCadaNodo"
+			],
+			[
+				"canales",
+				"canalesCadaNodo"
+			],
+			[
+				"cana",
+				"candadoCanales"
+			],
+			[
+				"ca",
+				"candadoCanales"
+			],
+			[
+				"ev",
+				"eventSnapshot"
+			],
+			[
+				"Eve",
+				"EventSnapshot"
+			],
+			[
+				"snap",
+				"snapshot"
+			],
+			[
+				"n",
+				"newevent"
+			],
+			[
+				"set",
+				"setRelojCopia"
+			],
+			[
+				"relo",
+				"relojPropio"
+			],
+			[
+				"rel",
+				"relojVectorial"
+			],
+			[
+				"pu",
+				"publicMethod"
+			],
+			[
+				"uni",
+				"unicaInstance"
+			],
+			[
+				"inta",
+				"unicaInstance"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"A",
+				"AbstractFactory"
+			],
+			[
+				"tipo",
+				"Tipo1MyFactory"
+			],
+			[
+				"Fa",
+				"FamilyCar"
+			],
+			[
+				"Spor",
+				"SportCar"
+			],
+			[
+				"car",
+				"carType"
+			],
+			[
+				"la",
+				"latitud"
+			],
+			[
+				"des",
+				"descripcion"
+			],
+			[
+				"r",
+				"ronda"
+			],
+			[
+				"el",
+				"electo"
+			],
+			[
+				"p",
+				"padre"
+			],
+			[
+				"g",
+				"getPropagacion"
+			],
+			[
+				"event",
+				"EventPropagada"
+			],
+			[
+				"ne",
+				"neighbors"
+			],
+			[
+				"rec",
+				"recibo"
+			],
+			[
+				"sin",
+				"sinVisitar"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"ve",
+				"misVecinos"
+			],
+			[
+				"Re",
+				"Rechazo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Ionic/Aprendiendo ionic.txt",
+			"settings":
+			{
+				"buffer_size": 917,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/tab.html",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/info.html",
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 705,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/coche.html",
+			"settings":
+			{
+				"buffer_size": 1477,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/data.json",
+			"settings":
+			{
+				"buffer_size": 2358,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/datos.html",
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/templates/comunidad.html",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Richi/Desktop/myKeys/Servidor.txt",
+			"settings":
+			{
+				"buffer_size": 2182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Richi/Desktop/frases ingles.txt",
+			"settings":
+			{
+				"buffer_size": 2226,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Ionic/proyectoShelby/www/js/data.json",
+		"/C/Ionic/proyectoShelby/www/js/controllers.js",
+		"/C/Ionic/miProyecto/www/js/app.js",
+		"/C/Ionic/miProyecto/www/js/controllers.js",
+		"/C/Ionic/proyectoShelby/www/js/app.js",
+		"/C/Users/Richi/Desktop/paginas, estudiar, etc.txt",
+		"/C/Users/Richi/Desktop/mongo java/mongo java.txt",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/mongoose.js",
+		"/C/Users/Richi/Desktop/L4nvidi4mat4/envy_info.txt",
+		"/C/Users/Richi/Desktop/myKeys/mongodb.txt",
+		"/C/xampp/htdocs/curso_nodejs/Aprendiendo node js.txt",
+		"/C/Users/Richi/Desktop/myKeys/bigdata.txt",
+		"/C/Users/Richi/Desktop/myKeys/como hacer llave por terminal.txt",
+		"/C/Users/Richi/Desktop/myKeys/Cosas de android studio.txt",
+		"/C/Ionic/Aprendiendo ionic.txt",
+		"/C/Users/Richi/Desktop/correos.txt",
+		"/C/Users/Richi/Desktop/frases ingles.txt",
+		"/C/Users/Richi/Desktop/myKeys/servidor online.txt",
+		"/C/Users/Richi/Desktop/myKeys/Servidor.txt",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/Alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/DatabaseConnection.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/data/mysql_login.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/GeoJSON.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/insertar_alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/GeoJSONBasico.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/obtener_altitud_alertate.php",
+		"/C/Users/Richi/Desktop/WebServicePhpAlertate/web/obtener_alertate.php",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/package.json",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/config.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/commands.js",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/lib/jitsu/commands/users.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/package.json",
+		"/C/Users/Richi/AppData/Roaming/npm/node_modules/jitsu/bin/jitsu",
+		"/C/Users/Richi/Desktop/Patrones de diseño/MVC.txt",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/home/index.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/base.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/user/chat.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/home.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/discuss.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/controllers/user.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/middlewares/getuser.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/server.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/middlewares/logged.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/facebook.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/user/extra_data.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/discuss/question_detail.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/models/question.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/answer.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/twitter.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/user.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/controllers/discuss.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/models/question.js",
+		"/C/xampp/htdocs/curso_nodejs/index.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/views/home/index.html",
+		"/C/Users/Richi/Desktop/Temario OFENSIVA 2.0 BLACKHAT.txt",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/models/user.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/connections/mongoose.js.txt",
+		"/C/Users/Richi/Desktop/mongo java/pruebas/mongo java.txt",
+		"/C/Users/Richi/Desktop/mongo java/pruebas/MongoDBJDBC.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/hw1-1__m101j_m101p_5258458de2d4233537765336/dump/m101/hw1.metadata.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/intro_to_creating_and_reading_documents_568c454cd8ca390830d6eb56/intro_to_creating_and_reading_documents/movies_inserts.js",
+		"/C/Users/Richi/Desktop/mongo java/semana 2/week2_examples__m101j_52d6adffe2d423570a05bba9/examples/src/main/java/com/mongodb/m101j/crud/App.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 2/week2_examples__m101j_52d6adffe2d423570a05bba9/examples/src/main/java/com/mongodb/m101j/crud/FindTest.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/hw1-1__m101j_m101p_5258458de2d4233537765336/dump/m101/funnynumbers.metadata.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/JSON_568c43bed8ca390830d6eb31/JSON/apple_fourth_quarter_news.json",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/pom.xml",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/App.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldFreemarkerStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldSparkFreemarkerStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/HelloWorldSparkStyle.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/SparkFormHandling.java",
+		"/C/Users/Richi/Desktop/mongo java/semana 1/m101j_week1_examples__m101j_52d6ae00e2d423570a05bbaa/m101j_week1_examples/src/main/java/com/mongodb/SparkRoutes.java",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/public/css/main.css",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/controllers/home.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/views/base.html",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/public/css/main.css",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/app/connections/facebook.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/public/js/jquery.js",
+		"/C/xampp/htdocs/curso_nodejs/Curso-Node.js- DJeanCar/package.json",
+		"/C/xampp/htdocs/curso_nodejs/CursoFundamentosNodeJS-master/package.json",
+		"/C/xampp/htdocs/curso_nodejs/CursoFundamentosNodeJS-master/server.js",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/app/views/index.html",
+		"/C/xampp/htdocs/Curso HTML5 de pildorasinformativas/pagina Vídeo 7.html",
+		"/C/xampp/htdocs/curso_nodejs/proyecto/node_modules/express/package.json",
+		"/C/xampp/htdocs/curso_nodejs/commons/script1.js",
+		"/C/xampp/htdocs/curso_nodejs/commons/script2.js",
+		"/C/xampp/htdocs/curso_nodejs/package.json",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/dashboard.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/edit.php",
+		"/C/Users/Richi/Desktop/MVC.txt",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/ejemplos totorialpoint/crearBD.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/blog_SeleccionPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/panel de control/blogs.php",
+		"/C/xampp/htdocs/curso_nodejs/crear servidor/server.js",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/estilo_insercion.css",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/paginaPrincipal_mongophp.php",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/java/com/herprogramacion/googlemapsenandroid/EventsActivity.java",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/Aplicacion CRUD/insercion.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/objSeleccionadoPorID.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/mostrarBasesMongo.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/insercion.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/paginaPrincipal_mongophp.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/estilo_insercion.css",
+		"/C/xampp/htdocs/phpinfo.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/php con mongo/mongo-php-library-master/src/Operation/Find.php",
+		"/C/Users/Richi/Downloads/informacion.txt",
+		"/C/xampp/htdocs/GeoJSON.php",
+		"/E/cursos de programacion UAM/programas y demas.txt",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/Devolver objetos en JSON desde PHP/respuestajson.php",
+		"/C/xampp/htdocs/Curso PHP MySQL pildorasinformativas/Devolver objetos en JSON desde PHP/clientejson.html",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/java/mx/developcomputing/alertate/ui/InsertActivity.java",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/java/mx/developcomputing/alertate/ui/ControlsActivity.java",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_markers_fragment.xml",
+		"/C/Users/Richi/Downloads/proyecto terminal/AlertaTE/app/src/main/res/layout/activity_controls_fragment.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_marker_detail.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_first_map.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/GoogleMapsEnAndroid/app/src/main/res/layout/activity_events.xml",
+		"/C/Users/Richi/Downloads/proyectosAndroid_pildoras/AlertaTE/app/src/main/res/values/strings.xml",
+		"/C/Users/Richi/Desktop/JBME.C1V1LWNU3V0.1080.Lat/SUBIDO POR PeliculasHDMeGa.Net.txt",
+		"/C/Users/Richi/Downloads/MegaDownloader.v1.7.Incl.Portable.and.Source.Code-FREE/Instrucciones.txt",
+		"/C/Users/Richi/Downloads/programas/nod32 64 bits/Instrucciones.txt",
+		"/C/xampp/htdocs/MySocialMedia/app/src/main/java/com/herprogramacion/mysocialmedia/PostAdapter.java",
+		"/C/Users/Richi/Downloads/programas/nod32 64 bits/Server TNOD.txt",
+		"/C/Users/Richi/Downloads/Algoritmos Distribuidos/practica fallo nodo/fallaNodo.py",
+		"/C/Users/Richi/AppData/Local/Temp/Rar$DIa0.073/DEF_Mejorado_Snapshot.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mongoose",
+			"facebookConnection",
+			"id_EditPHP",
+			"articleArrayUpdate",
+			"connection",
+			"article",
+			"miCursor",
+			"bloginsercionphp",
+			"blog_mongophp",
+			"objPolygon",
+			"objPolygon1",
+			"\n	",
+			"0",
+			"NULL",
+			"Null",
+			"NULL",
+			"null",
+			"PRUEBA",
+			"ACEPTA",
+			"visitado",
+			"Lider",
+			"lider",
+			"paro",
+			"RECHAZO",
+			"SEMILLA",
+			"\"INICIO\"",
+			"INICIO",
+			"modoTimer",
+			"import",
+			"  ",
+			"inicia",
+			"DFS_mejorado",
+			"visitedD",
+			"unvisited",
+			"father",
+			"snapshot",
+			"cleancanales",
+			"appendcanales",
+			"visitedS",
+			"visitedD",
+			")\n",
+			"----------------------------------------------------------------------------------------\n",
+			", ",
+			")",
+			"event",
+			".\n",
+			"Rechazo",
+			"self"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"twitterConnection",
+			"id",
+			"article",
+			"miConnection",
+			"articleArrayInsertar",
+			"miCursorObjCadaDocumento",
+			"blog_mongophp",
+			"objPolygonAbierto",
+			"objPolygonCerrado",
+			"null",
+			"0",
+			"-1",
+			"Null",
+			"NULL",
+			"PROCESA",
+			"ACEPTADO",
+			"visited",
+			"miLider",
+			"entroEnParo",
+			"REGRESA",
+			"\"SEMILLA\"",
+			"SEMILLA",
+			"banderaTimer",
+			"DFSMejoradoSnapshot",
+			"visited",
+			"sinVisitar",
+			"padre",
+			"agregarSnapshot",
+			"limpiaCanales",
+			"anadirCanales",
+			"visited_snapshot",
+			"EventPropagada"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Ionic/Aprendiendo ionic.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 485.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/templates/tab.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1073,
+								1082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/templates/info.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1414,
+								1419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/templates/coche.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 185.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1158,
+								1158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/templates/datos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "www/templates/comunidad.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Richi/Desktop/myKeys/Servidor.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/Richi/Desktop/frases ingles.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2226,
+								2226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 846.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyectoShelby.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

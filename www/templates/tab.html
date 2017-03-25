@@ -1,0 +1,39 @@
+<!--  TAB:HTML pestañas y nav-vies solamente  --> 
+
+
+<!-- o <a href=""  para button 
+      tamaño disponible (atributo) button-block, button-full-->
+
+  <!-- mejor practica abajo
+    <div class="bar bar-footer bar-dark">
+        <div class="button-bar">
+
+          <button class="button ion-model-s button-clear"> </button>
+          <button class="button ion-ios-people button-clear"> </button>
+          <button class="button ion-person button-clear"> </button>
+
+        </div>
+    </div>
+    -->
+
+    <!-- directivas personalizadas  
+    tabs-striped  "resaltas seleccionado" 
+    -->
+
+    <ion-tabs class="tabs-icon-top tabs-striped 
+    tabs-background-dark tabs-color-stable">
+
+      <!-- direccionar  #, mapa_bloqueos 
+      <ion-tab title="Mapa de Bloqueos" icon="ion-android-globe"  href="#/tab/mapa_bloqueos">
+        <ion-nav-view name="tab-mapa_bloqueos"></ion-nav-view>
+      </ion-tab>
+      -->
+      <ion-tab title="Reportar" icon="ion-compose"  href="#/tab/mapa_reporte">
+        <ion-nav-view name="tab-mapa_reporte"></ion-nav-view>        
+      </ion-tab>
+
+      <ion-tab hidden="true">
+        <ion-nav-view name="info"></ion-nav-view>
+      </ion-tab>
+      
+    </ion-tabs>

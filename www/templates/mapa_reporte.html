@@ -1,0 +1,151 @@
+
+
+<ion-view hide-nav-bar="true">
+
+    <ion-header-bar class="bar bar-assertive">
+      <h1 class="title"> Bloqueos </h1>
+
+      <button class="button button-clear ion-android-download"
+        ng-hide="hideActualizaMapa"
+        ng-click="actualizarMapa()"
+        >
+        Actualizar
+      </button>
+
+    </ion-header-bar>
+
+  <ion-content scroll="false">
+
+      <div class="bar bar-header item-input-inset">
+        <label class="item-input-wrapper">
+          <i class="icon ion-ios-search placeholder-icon"></i>
+          <input type="text" placeholder="Direcciòn" id="addressViewReport" ng-model="addressViewReport"/>
+        </label>
+        <button class="button button-small button-dark" ng-click="addaddressViewReport()">
+          Buscar
+        </button>
+      </div>
+
+      <div id="map" class="map" data-tap-disabled="true"> </div> 
+
+
+      <div class="panel_registro" ng-hide="hideBotoneraRegistro">
+        <ul>
+          <li ng-hide="hideButtonRegresaPoligono">
+            <a class="button button-icon icon ion-ios-undo custom-icon" ng-click="regresarPoligono()"></a>
+          </li>
+          
+          <!-- para reportes continuos -->
+          <li ng-hide="hideButtonCancelContinuo">
+            <a class="button button-icon icon ion-close-circled custom_icon_red" ng-click="cancelarPoligono()"></a>
+          </li>
+          
+          <!-- para reportes por partes -->          
+          <li ng-hide="hideButtonCancelPartes">
+            <a class="button button-icon icon ion-close-circled custom_icon_red" ng-click="cancelarPoligonoPartes()"></a>
+          </li>
+
+          <div ng-hide="hideButtonSigTramo" ng-click="guardaEnArrayPath()"> 
+            <li class="texto_diseñado_2"> <div id="tipoDeReporteView"> Sig. Tramo </div> </li>
+            <li>
+              <a class="button button-icon icon ion-forward custom_icon_reportando"></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+
+
+      <!-- 
+      <div class="panel_opciones">
+        <ul>
+          <li>Tipo de bloqueo </li>
+          <li> <a class="button button-icon icon ion-chevron-down custom-icon" ng-click="cancelarPoligono()"> </a></li> 
+        </ul>
+      </div> 
+      -->
+
+<!--       <div class="panel_mensajes" id='ver'> -Registro guardado-</div>
+ -->
+
+      <div class="panel_marker">
+        <ul>
+          <li><a class="button button-icon icon ion-location" ng-click="cancelarPoligono()"></a></li>
+        </ul>
+      </div>
+
+
+    <!--     mostrar primero para realizar un reporte -->    
+    <div class="etiqueta_flotante" 
+      ng-hide="hideButtonReportar" 
+      >
+      <ul>
+
+        <li ng-click="openModalVerPor()"
+          id="idModalVerPor">
+          <div class="texto_diseñado_2"> Ver por... </div>
+          <a  
+            class="icon ion-ios-search-strong custom_icon">
+          </a>
+        </li>
+        
+        <div ng-click="ConfirmPopupCont_Partes()"> <!-- openModalReporteConPorPartes --> 
+          <div class="texto_diseñado_2"> Reportar </div>
+          <li> 
+            <a 
+              class="icon ion-android-arrow-dropright-circle custom_icon"
+              >
+            </a>
+          </li>
+        </div>
+       
+      </ul>
+    </div>
+
+    <!--   Siguiente boton ocultando el de reportar, para seguir con la hora, fecha, etc -->    
+    <div class="etiqueta_flotante" ng-hide="hideButtonSigViewUserAMano" >
+      <ul>
+
+        <li ng-click="cancelarReporte()"
+          id="cancelarReporte">
+          <div class="texto_diseñado_2"> Cancelar </div>
+          <a  
+            class="icon ion-close-circled custom_icon">
+          </a>
+        </li>
+
+        <li ng-click="openModalTipoBloqueo()">
+          <div class="texto_diseñado_2"> Siguiente </div>
+          <a 
+            class="icon ion-android-arrow-dropright-circle custom_icon_reportando"
+            >
+          </a>
+        </li> 
+        
+      </ul>
+    </div>
+
+    <div class="etiqueta_ir">
+      <ul>
+        <li class="texto_diseñado_2">Mi Ubicación</li>
+        <li>
+          <a id="mostrar" 
+            class="icon ion-ios-navigate custom_icon"
+            ng-click="irPosActual()">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="info_marker" id='divMarker' ng-click="borrarDivMarker()"> 
+    </div>
+
+     <!--   class="map_container">
+        <google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options" control="map.control">
+            <markers models="map.markers" coords="'self'" options="'options'" isLabel='true'>
+            </markers>
+        </google-map>
+      </div> -->
+
+  </ion-content>  
+</ion-view>
+

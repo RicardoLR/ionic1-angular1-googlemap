@@ -1,0 +1,68 @@
+
+
+<ion-view view-title="Registrar bloqueos">
+
+  <ion-content>
+   
+  <ion-pane>
+    <ion-content>
+    
+        <div class="item item-input-inset">
+          <label class="item-input-wrapper">
+            <input type="text" placeholder="Direcciòn" id="address" ng-model="address"/>
+          </label>
+          <button class="button button-small button-dark" ng-click="addAddress()">
+            Buscar
+          </button>
+        </div>
+
+
+      <div class="panel_registro">
+        <ul>
+          <li><a class="button button-icon icon ion-close-circled custom-icon" ng-click="cancelarPoligono()"></a></li>
+          <li><a class="button button-icon icon ion-ios-undo custom-icon" ng-click="regresarPoligono()"></a></li>
+          <li><a id="mostrar" class="button button-icon icon ion-checkmark-circled custom-icon" ng-click="guardarPoligono()"></a></li>
+        </ul>
+      </div>
+
+
+      <div class="panel_opciones">
+        <ul>
+          <li>Tipo de bloqueo</li>
+          <li>
+              <select id="tipoBloqueo">
+<!--                 
+<option ng-repeat="option in listOfOptions" value='{{option.name}}'>{{option.name}}</option>
+ -->
+                <option selected value="0">Bache</option>
+                <option value="1">Feria</option>
+                <option value="2">Tianguis</option>
+              </select> 
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="panel_mensajes" id='ver'> -Registro guardado-</div>
+      <div id="map" class="map" data-tap-disabled="true"> </div> 
+
+      <div class="panel_marker">
+        <ul>
+          <li><a class="button button-icon icon ion-location" ng-click="cancelarPoligono()"></a></li>
+        </ul>
+      </div>
+
+     <!--   class="map_container">
+        <google-map center="map.center" zoom="map.zoom" draggable="true" options="map.options" control="map.control">
+            <markers models="map.markers" coords="'self'" options="'options'" isLabel='true'>
+            </markers>
+        </google-map>
+      </div> -->
+
+    </ion-content>
+  </ion-pane>
+
+  </ion-content>  
+
+</ion-view>
+

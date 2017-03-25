@@ -1,0 +1,301 @@
+/* Empty. Add your own CSS if you like */
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll {
+  height: 100%;
+}
+.labels {
+  color: black;
+
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 80px;
+  white-space: nowrap;
+}
+
+.trans{
+  background-color:#8BF4EF;
+  color:#CC0000;
+  position:absolute;
+  text-align:center;
+  top:50px;
+  left:40px;
+  padding:5px;
+  font-size:25px;
+  font-weight:bold;
+
+  z-index:1;
+  filter:alpha(opacity=90);
+  float:left;
+  -moz-opacity:.60;
+  opacity:.60;
+}
+
+#floating-panel {
+
+  float:left;
+
+  position: absolute;
+  top: 80px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.derecha{ 
+  float: right; 
+}
+
+.izquierda{ 
+  float: left;  
+}
+
+.panel_registro {
+  position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  right: 0; /* Establecemos la barra en la izquierda */
+  top: 100px; /* Bajamos la barra 200px de arriba a abajo */
+  z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.panel_registro ul {
+  list-style: none;
+}
+
+.panel_registro ul li a {
+  /*padding: 10px 15px; */
+  padding: 5px;
+
+}
+
+.panel_marker{
+  position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+
+  width: "100%";
+  height: "100%"; 
+  align: "center";
+}
+ 
+.panel_marker ul {
+  list-style: none;
+}
+
+.panel_marker ul li a {
+  /*padding: 10px 15px; */
+  padding: 5px;
+
+}
+.centrar{
+    position: absolute;
+    /*nos posicionamos en el centro del navegador*/
+    top:50%;
+    left:50%;
+    /*determinamos una anchura*/
+    width:40px;
+    /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+    margin-left:-20px;
+    /*determinamos una altura*/
+    height:30px;
+    /*indicamos que el margen superior, es la mitad de la altura*/
+    margin-top:-15px;
+    border:1px solid #808080;
+    padding:5px;
+}
+
+.custom_icon {
+  font-size: 50px;
+  color : #0C04F9;
+  padding: 20px;
+
+}
+
+
+/* color rojo #e10e0e */
+.custom_icon_red {
+  font-size: 50px;
+  color : #e10e0e; /*Color verde*/
+  padding: 20px;
+
+}
+.custom_icon_reportando {
+  font-size: 50px;
+  color : #3bb922; /*Color verde*/
+  padding: 20px;
+}
+
+
+.custom-icon-pos {
+  font-size: 50px;
+  color: red;
+}
+
+.etiqueta_flotante{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: transparent;
+  vertical-align: sub;
+} 
+
+.etiqueta_ir{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: transparent;
+  vertical-align: sub;
+} 
+
+.etiqueta_llamar{
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: transparent;
+  vertical-align: sub;
+} 
+
+.centro {
+  width: 50px;
+  height: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0px;
+  margin-left: -10px;
+}
+
+.panel_opciones {
+  position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  left: 0; /* Establecemos la barra en la izquierda */
+  top: 100px; /* Bajamos la barra 200px de arriba a abajo */
+  z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.panel_registro ul {
+  list-style: none;
+}
+
+.panel_registro ul li a {
+  /*padding: 10px 15px; */
+  padding: 10px;
+
+}
+.info_marker {
+  position: absolute; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  top: 30px; /* Bajamos la barra 200px de arriba a abajo */
+  text-align:center;
+  justify-content:center;
+  background-color: #EC2AE6;
+  border-radius: 30px;
+
+  margin:30px;
+
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  padding: 10px;
+}
+
+.panel_mensajes {
+  position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  top: 70px; /* Bajamos la barra 200px de arriba a abajo */
+  z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+
+  text-align:center;
+  margin-right:auto;  
+  justify-content:center;
+  background-color: #ffffff;
+  border-radius: 30px;
+
+  position: absolute;
+  /*nos posicionamos en el centro del navegador*/
+  left:40%;
+
+  margin:10px;
+
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+
+/*  display:none;
+*/  
+}
+ 
+.panel_mensajes ul {
+  list-style: none;
+}
+
+.panel_mensajes ul li a {
+  /*padding: 10px 15px; */
+  padding: 5px;
+
+}
+
+/* mensajes */
+
+.exitoso{
+  background:#F94BF4;
+  padding:4px;
+  text-align:center;
+  width: 170px;
+  margin: 0 auto;
+
+  display:none;
+
+  border-radius: 30px;
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+}
+
+
+.icon-heart{
+  border:solid 1px #DEDEDE;
+  background:#FFFFCC url(img/icon-heart.png) 8px 6px no-repeat;
+  color:#222222;
+  padding:4px;
+  text-align:center;
+}
+
+.mensajeGuardado{
+  -webkit-align-items: flex-start;
+  -moz-align-items: flex-start;
+  align-items: flex-start;
+  padding-top: 54px;
+  border-radius: 30px;
+  
+}
+
+.texto_diseñado {
+ 
+  text-align:center;
+  margin-right:auto;  
+  justify-content:center;
+  background-color: red;
+  border-radius: 20px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.texto_diseñado_2 {
+ 
+  text-align:center;
+  margin-right:auto;  
+  justify-content:center;
+  background-color: blue;
+  border-radius: 20px;
+  color: white;
+  opacity: 0.6;
+  padding: 5px;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
