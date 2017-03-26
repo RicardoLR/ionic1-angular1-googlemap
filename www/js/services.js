@@ -1,50 +1,84 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function() {
-  // Might use a resource here that returns a JSON array
 
-  // Some fake testing data
-  var chats = [{
-    id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
-  }, {
-    id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
-  }, {
-    id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
-  }, {
-    id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
-  }, {
-    id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
-  }];
+.factory('BloqueosServices', ['$http', '$q', function($http, $q) {
+  
 
-  return {
-    all: function() {
-      return chats;
-    },
-    remove: function(chat) {
-      chats.splice(chats.indexOf(chat), 1);
-    },
-    get: function(chatId) {
-      for (var i = 0; i < chats.length; i++) {
-        if (chats[i].id === parseInt(chatId)) {
-          return chats[i];
-        }
-      }
-      return null;
-    }
+  var REST_SERVICE_URI = 'http://proyectos-mx.net/appbloqueos/web_bloqueos/';
+
+  var factory = {
+    fetchAllBloqueos: fetchAllBloqueos,
+    createBloqueo: createBloqueo,
+    deleteBloqueo: deleteBloqueo
   };
-});
+
+  return factory;
+
+
+  function fetchAllBloqueos() {
+
+    var mi_promesa = $q.defer();
+
+    $http.get(REST_SERVICE_URI+'obtener_altitud_bloqueosPDO.php').then(
+      
+      function (response) {
+        mi_promesa.resolve(response.data);
+      },
+
+      function(errResponse){
+        console.error('Error while fetching Bloqueos');
+        mi_promesa.reject(errResponse);
+      }
+    );
+    
+    return mi_promesa.promise;
+  }
+
+  function createBloqueo(bloqueo) {
+    
+    var deferred = $q.defer();
+    
+    $http.post(REST_SERVICE_URI+"insertar_bloqueo.php", {
+        'reporteSend': reporteSend
+      }).then(
+      function (response) {
+        deferred.resolve(response.data);
+      },
+      function(errResponse){
+        console.error('Error while creating Bloqueo');
+        deferred.reject(errResponse);
+      }
+    );
+
+    return deferred.promise;
+  }
+
+
+  function deleteBloqueo(id) {
+
+    var deferred = $q.defer();
+
+    var reporteSend={
+      "idEliminar":idEliminar
+    }
+
+    
+    $http.post(REST_SERVICE_URI+'delete_id_bloqueo.php', {
+      'reporteSend': reporteSend
+    }).then(
+
+      function (response) {
+        deferred.resolve(response.data);
+      },
+      function(errResponse){
+        console.error('Error while deleting Bloqueo');
+        deferred.reject(errResponse);
+      }
+    );
+
+    return deferred.promise;
+  }
+
+
+
+}]);

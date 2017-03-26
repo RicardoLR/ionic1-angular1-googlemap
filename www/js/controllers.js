@@ -10,373 +10,11 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 	*/
 
 
-//poner en mapa los BLOQUEOS como lineas de colores o puntos
-//flujo http://gamingfactorystoryuami.site90.net/WebServicePhpAlertate/web/GeoJSON.php
-.controller('MapBloqueosCtrl', ['$scope', '$http', '$state', function($scope, $http, $state) {
-
-
-	var mapaDelic;
-	var miPosicion;
-	var latSendVar, lngSendVar;
-
-	var markerCoordinates = [];
-	var marker;
-	var image = {
-		url: 'img/icon_tianguis.png',
-		// This marker is 20 pixels wide by 32 pixels high.
-		size: new google.maps.Size(40, 64),
-		origin: new google.maps.Point(0, 0),
-		// The anchor for this image is the base of the flagpole at (0, 32).
-		anchor: new google.maps.Point(0, 32)
-	};
-
-	$scope.ver_por_filtroList = [
-		{ text: "Todo", checked: false, value:1 },
-		
-		{ text: "Tipo de venta", checked: false, value:2 },
-		{ text: "Delegacion", checked: false, value:3 },
-		{ text: "Temporada", checked: false, value:4 },
-		{ text: "Dias", checked: false, value:5 }
-	];
-
-	$scope.bloqueosList = [
-		{ text: "Feria", checked: false, value:1 },
-		{ text: "tianguis", checked: false, value:2 },
-		{ text: "Fiesta Patronal", checked: false, value:3 },
-		
-		{ text: "Accidente", checked: false, value:10 },
-		{ text: "Fuga de Sustancias Peligrosas", checked: false, value:11 },
-
-		{ text: "Salida Escolar", checked: false, value:15 },
-		{ text: "Cierre por Obras", checked: false, value:16 },
-		{ text: "Marchas", checked: false, value:17 },
-		{ text: "Inundacion", checked: false, value:18 }
-	];
-
-	google.maps.event.addDomListener(window, 'load', initMapBloqueos());
-
-	function initMapBloqueos() {
-		console.log("initMapBloqueos MapBloqueosCtrl");
-
-		miPosicion = [];
-
-		navigator.geolocation.getCurrentPosition(function(position){
-			miPosicion.push(position.coords.latitude);
-			miPosicion.push(position.coords.longitude);
-
-			console.log("getCurrentPosition", miPosicion[0]);
-		});
-
-		var mapOptions = {
-			// the Teide ;-)
-			center: {lat: miPosicion[0], lng: miPosicion[1]},
-			zoom: 15,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			mapTypeControlOptions: {
-				mapTypeIds: []
-			},
-			panControl: false,
-			streetViewControl: false,
-			zoomControlOptions: {
-				style: google.maps.ZoomControlStyle.SMALL
-			}
-		};
-
-		mapaDelic = new google.maps.Map(document.getElementById("mapaDelic"), mapOptions);
-		
-
-		$http.get('http://bloqueosviales.webcindario.com/web_bloques/obtener_altitud_bloqueosPDO.php')
-			.success(function(data){//success() llamada AJAX
-
-				//------ para arreglo tridimencional  con mongo  ------------------
-				/*
-				console.log(data.coordenadas[0][0][0], " ", data.coordenadas[0][0].length, " ", data.coordenadas[0].length, " ", data.coordenadas.length);
-				console.log(data.coordenadas[0][0][1]);
-
-				var poligonoCoordinates = {};
-
-				// initialize your stack
-				var myStack=[];
-				var routes = [];
-
-				for (i = 0; i < data.coordenadas.length; i++) { 
-					for (j = 0; j < data.coordenadas[i].length; j++) { 
-
-
-					console.log("valores:", i, " " , j, " ", data.coordenadas[i][j][0], " ", data.coordenadas[i][j][1]);
-					
-					routes.push(
-						new google.maps.LatLng(data.coordenadas[i][j][0], data.coordenadas[i][j][1])
-						);
-					}
-					myStack.push(routes);
-					var polyline = new google.maps.Polyline({
-					path: routes
-					, map: mapaDelic
-					, strokeColor: '#ff0000'
-					, strokeWeight: 5
-					, strokeOpacity: 0.8
-					, clickable: false
-				});
-				
-				polyline.setMap(mapaDelic);
-				routes.splice(0, routes.length); 
-				}*/
-
-				//------ FIN para arreglo tridimencional  con mongo  ------------------
-
-				console.log("cargando data", data[0].latitud);
-
-				var poligonoCoordinates = {};
-
-				// initialize your stack
-				var myStack=[];
-				var routes = [];
-
-				for (i = 0; i < data.length; i++) { 
-
-					//separamos en array las coordenadas y las ponemos en las rutas ROUTES					
-					var latAssoc =  data[i].latitud.split(",");
-					var lngAssoc =  data[i].longitud.split(",");
-
-					for (j=0; j<latAssoc.length; j++) {
-						routes.push(
-							new google.maps.LatLng(latAssoc[j], lngAssoc[j])
-							);
-					} 
-					var miStrokeColor; 
-					if(data[i].tipo_bloqueo == 1)
-						miStrokeColor = "#0000FF";
-					else if(data[i].tipo_bloqueo == 2)
-						miStrokeColor = "#FF0000";
-					else if(data[i].tipo_bloqueo == 3)
-						miStrokeColor = "#00FF00";
-					else if(data[i].tipo_bloqueo == 10)
-						miStrokeColor = "#FF00FF";
-					else
-						miStrokeColor = "#9400D3";
-
-
-					myStack.push(routes);
-					var polyline = new google.maps.Polyline({
-						path: routes
-						, map: mapaDelic
-						, strokeColor: miStrokeColor
-						, strokeWeight: 5
-						, strokeOpacity: 0.8
-						, clickable: true
-					});
-					
-					polyline.setMap(mapaDelic);
-					routes.splice(0, routes.length);
-
-					var auxDescripcion = getTipoDelito( parseInt(data[i].tipo_bloqueo) );
-					auxDescripcion = auxDescripcion +" "+ data[i].nombre_tianguis;
-					var miTitle = data[i].dias+" de "+data[i].hora_inicial+"-"+data[i].hora_final + "</br>" +data[i].temp_inicial +" a "+data[i].temp_final+ "</br>" + data[i].delegacion+" "+data[i].calles;
-
-					console.log("miTitle", miTitle);
-					console.log("auxDescripcion", auxDescripcion);
-
-					marker = new google.maps.Marker({
-						position: new google.maps.LatLng( latAssoc[i], lngAssoc[i]),
-						map: mapaDelic,
-						title: miTitle,
-						animation: google.maps.Animation.DROP,
-						label:auxDescripcion,
-						icon: image,
-						visible:true
-					});
-
-
-					google.maps.event.addListener(marker, 'click', (function(marker, i) {
-						return function() {
-							//console.log(marker.getTitle(), " ", marker.getLabel() );
-
-							document.getElementById("divMarker").innerHTML = 
-								marker.getLabel()  + "<br>" + marker.getTitle();  // Agrego nueva linea antes
-
-							//********** Marker SALTADOR ****************
-							if (marker.getAnimation() !== null) {
-								marker.setAnimation(null); //parar
-							} else {
-								marker.setAnimation(google.maps.Animation.BOUNCE);
-								setTimeout(function(){
-									marker.setAnimation(null);
-								},2000,"JavaScript");	
-							}
-
-						}
-					})(marker, i));
-					
-					//************************* eventos de polilinea   *************************************
-					/*google.maps.event.addListener(polyline, 'click', (function(polyline, i) {
-						return function() {
-							console.log("mi polyline" );
-							//********** polilinea que cambia de color 2 seg ****************
-							polyline.setOptions({strokeColor:'#FF00FF'});
-
-							setTimeout(function(){
-								polyline.setOptions({strokeColor:"#FF00FF"});
-							},2000,"JavaScript");	
-						}
-					})(polyline, i));*/
-					//********************************************************************
-
-					markerCoordinates.push(marker);
-				}
-				 
-			});
-		//------------------- pintar poligono en mapa --------
-		/*var poligonoCoordinates = [
-		{lat: 37.772, lng: -122.214},
-		{lat: 21.291, lng: -157.821},
-		{lat: -18.142, lng: 178.431},
-		{lat: -27.467, lng: 153.027}
-		];
-		var flightPath = new google.maps.Polyline({
-			path: poligonoCoordinates,
-			geodesic: true,
-			strokeColor: '#FF0000',
-			strokeOpacity: 0.8,
-			strokeWeight: 5
-		});
-
-		flightPath.setMap(mapaDelic);*/
-		//------------------- fin pintar poligono en mapa --------
-
-		navigator.geolocation.getCurrentPosition(function(pos) {
-			mapaDelic.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
-		
-		/*	var marker = new google.maps.Marker({
-				id: "some-id",
-				icon: {
-						strokeColor: "red"
-				},
-				map: mapaDelic,
-				title: "Ejemplo de marker",
-				position: new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude)
-			});
-
-			window.infowindow = new google.maps.InfoWindow({
-				content: 'content'
-			});
-
-			//atrapar un evento al tocar marter
-			google.maps.event.addListener(marker, 'mousedown', function(){
-					alert("mensaje");
-			});*/
-		});
-
-
-		//------- Este evento se activa cuando cambia la propiedad del centro de mapa.
-		mapaDelic.addListener('center_changed', function() {
-			latSendVar = mapaDelic.getCenter().lat();		  
-			lngSendVar = mapaDelic.getCenter().lng();
-
-			var geocoder = new google.maps.Geocoder;
-			var infowindow = new google.maps.InfoWindow;
-
-			geocodeLatLng(geocoder, mapaDelic, infowindow, new google.maps.LatLng( latSendVar, lngSendVar), "address");
-		});
-
-		$scope.mapaDelic = mapaDelic;
-	}
-
-	function getDibujaPolBloqueos(){
-
-	}
-
-	//regresa el texto a mostrar, recordar value empieza en 1 pero el arreglo en 0
-	function getTipoDelito(value){
-	
-		//Valor i+1, arreglo i creciente no es uno menor
-		switch(value) {
-			case 1:
-				return $scope.bloqueosList[0].text;
-				break;
-			case 2:
-				return $scope.bloqueosList[1].text;
-				break;
-			case 3:
-				return $scope.bloqueosList[2].text;
-				break;
-
-			case 10:
-				return $scope.bloqueosList[3].text;
-				break;
-			case 11:
-				return $scope.bloqueosList[4].text;
-				break;
-
-			case 15:
-				return $scope.bloqueosList[5].text;
-				break;		
-			case 16:
-				return $scope.bloqueosList[6].text;
-				break;						
-			case 17:
-				return $scope.bloqueosList[7].text;
-				break;
-			case 18:
-				return $scope.bloqueosList[8].text;
-				break;
-
-			default:
-				return "Bloqueo";
-		}
-	}
-
-
-	$scope.irPosActual = function(){
-		mapaDelic.setCenter( new google.maps.LatLng( miPosicion[0], miPosicion[1] ) );				
-	}
-
-	//-------------  Direccion  --------------
-	$scope.addAddress = function() {
-		var geocoder = new google.maps.Geocoder();
-		geocodeAddress(geocoder, mapaDelic);
-	}
-	function geocodeAddress(geocoder, resultsMap) {
-			
-		var address = document.getElementById('address').value;
-		geocoder.geocode({'address': address}, function(results, status) {
-			
-			if (status === google.maps.GeocoderStatus.OK) {
-				resultsMap.setCenter(results[0].geometry.location);
-
-
-				/* iconoc personalozado */
-				/*var image = 'images/beachflag.png';
-				var markerDireccion = new google.maps.Marker({
-					map: resultsMap,
-					position: results[0].geometry.location,
-					icon: image
-				});*/
-				//----------------------------
-
-				var markerDireccion = new google.maps.Marker({
-					map: resultsMap,
-					position: results[0].geometry.location
-			 });
-
-				setTimeout(function(){
-						markerDireccion.setMap(null);
-				},2000,"JavaScript");
-
-			} else {
-				alert('Vuelva a escribir la direcciòn. gracias.');
-			}
-		});
-	}
-
-}])
-
-
 .controller('MapaReporteCtrl', 
 	['$scope', '$http', '$state', '$ionicModal', '$filter', '$location', '$cordovaSocialSharing',
-	'$cordovaSQLite', '$ionicPopup', '$timeout',
+	'$cordovaSQLite', '$ionicPopup', '$timeout', 'BloqueosServices',
 	function($scope, $http, $state, $ionicModal, $filter, $location, $cordovaSocialSharing,
-	 $cordovaSQLite, $ionicPopup, $timeout,
+	 $cordovaSQLite, $ionicPopup, $timeout, BloqueosServices,
 	 formlyConfig, $cordovaDatePicker, ionicDatePicker) { 
 
 	var map;
@@ -453,11 +91,6 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 
 
 	//******************************* objet JSON a mandar  ********************************
-
-	/* ========================== valores ====================
-	insertRowsRef($nombre_tianguis, $temporada, $temp_inicial, $temp_final, $dias, $tipo_venta, $hora_inicial, $hora_final,
-		$tipo_bloqueo, $reduccion_carriles, $latitud, $longitud, $delegacion, $calles){
-	========================================================== */
 	var reporteSend = {
 		"nombre_tianguis":"",
 		"temporada": "anual",
@@ -575,6 +208,7 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 	$scope.dataTipo_venta = {
 		clientSide: 'ng' //valor que envio por default
 	};
+
 	$scope.cambioRadioTipo_ventaEscucha = function(item) {
 		reporteSend.tipo_venta = item.value;	
 		banderaTipo_ventaSelec=true;		
@@ -582,6 +216,7 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 
 		console.log("Radio tipo_venta elegido", item.value, "banderaTipo_ventaSelec", banderaTipo_ventaSelec);
 	}
+	
 	//======================= para $scope.dias =============================================
 	function getDiasSeleccionados(){
 		var banderaPrimero=0;
@@ -737,6 +372,13 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 			reporteSend.delegacion = this.delegacion_model;
 			reporteSend.calles = this.calles_model;
 			
+
+			/**
+			switcheo con servicio que implementa promesas
+			UserService.createBloqueo(reporteSend).then(function(errResponse){
+				console.error('Error while creating User');
+			});
+			*/
 			$http.post("http://proyectos-mx.net/appbloqueos/web_bloqueos/insertar_bloqueo.php",{
 				'reporteSend': reporteSend
 			})
@@ -1418,9 +1060,24 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 
 
 	function cargarBloqueosMapa(){
+
+
+		/** se puede Switchear con servicio
+		UserService.fetchAllUsers().then(
+			function(data) {
+				// =========== inicio de logica obtener bloqueos ===========
+
+			},
+			function(errResponse){
+				console.error('Error while fetching Users');
+			}
+		);
+		*/
+
 		$http.get('http://proyectos-mx.net/appbloqueos/web_bloqueos/obtener_altitud_bloqueosPDO.php')
 			.success(function(data){//success() llamada AJAX
 
+				// =========== inicio de logica obtener bloqueos ===========
 				//console.log("cargando data", data[0].latitud);
 				var banderaPonUnMarker = true;
 
@@ -1456,6 +1113,8 @@ angular.module('starter.controllers', ['pickadate', 'ionic', 'ionic-datepicker',
 					}
 					//==================================================================	
 				}
+
+				// =========================================================
 			});
 	}
 
